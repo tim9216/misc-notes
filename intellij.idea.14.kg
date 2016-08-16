@@ -138,3 +138,8 @@ public class keygen
       System.out.println(MakeKey(args[0], 0, r.nextInt(100000)));  
   }  
 }  
+
+
+//moomin
+//28367-L7LUR-DLSWU-5SX29-
+//BC04O-05QV5
