@@ -1,1 +1,244 @@
 
+.WB_frame,
+.WB_frame_a,
+.WB_frame_b,
+#plc_main
+{
+  background-color: #000 !important;
+  width: 98% !important;
+  padding: 3px 5px 3px 5px !important;
+  margin: 3px 5px 3px 5px !important;
+}
+
+
+/* hide  left column  and  right column */
+.WB_main_r,
+.WB_main_l,
+.WB_timeline
+{
+  display: none;
+}
+
+
+/* individual page, left column  */
+.WB_frame_b{
+	display: none;	
+}
+
+
+/* main column width */
+#plc_main, 
+.WB_main_c,
+.WB_frame_c
+{
+  width: 100% !important;
+  padding: 3px 5px 3px 5px !important;
+}
+
+
+
+/* tweet container */
+.WB_cardwrap,
+.WB_feed_type
+{
+  background-color: #000 !important;
+  border-bottom: 1px dashed #366;
+}
+
+
+
+/* everything of tweet content */
+.WB_detail,
+.W_f14,
+.WB_text
+{
+  font-size:12pt !important;
+}
+
+
+
+/* main tweet content */
+.WB_text
+{
+  color: #FFF; 
+  font-weight:bolder;
+}
+
+
+
+/* weibo user link */
+a[usercard]
+{
+  color:#BBF !important;
+}
+
+
+
+/* links in weibo */
+.WB_text a 
+{
+  color:#6C6;
+}
+
+
+
+/* favourite and like */
+ul.WB_row_line li:first-of-type, 
+ul.WB_row_line li:last-of-type,
+div.WB_handle.W_fr ul li:last-of-type
+{
+    display:none;
+}
+
+
+
+/* container of inked external media */
+.WB_media_wrap
+{
+	margin: 3px 20px 3px 20px;
+}
+
+
+/*  abstract of linked external article  */
+.WB_feed_spec, 
+.WB_feed_spec_b,
+.WB_feed_spec_c
+{
+	margin-left: 3px 12px 3px 12px !important;
+	width: 95% !important;
+	background-color:  #050 !important;
+}
+
+
+
+/* head photo of linked external article */
+/* .WB_feed_spec_pic, */
+.WB_feed_spec_pic_h
+{
+	background-color: #050 !important;
+}
+
+
+
+/* external link title */
+.WB_feed_spec_clearfix
+{
+    font-size: 15pt !important;
+    font-weight: bolder !important;
+    color: #0E0 !important;
+}
+
+
+
+
+
+/*  abstract of linked external article  */
+.WB_feed_spec_info
+{
+	position: static;
+	float: left !important;
+}
+
+
+
+.WB_feed_spec_pic
+{
+	text-align: left; 
+}
+
+/* video photo container */
+.WB_media_wrap .media_box
+{
+	width: 95%;
+}
+
+
+
+
+/*  quoted retweet content  */
+.WB_detail .WB_feed_expand .WB_expand.S_bg1
+{
+	width: 95%;
+	margin-left: 0;
+	padding: 10px 5px 10px 10px;
+	background-color: #005;
+}
+
+
+
+/*  title of linked external article  */
+h4 a,
+h4
+{
+  font-size: 12pt !important;
+  font-weight: bolder !important;
+  color: #EEEEEE !important;
+}
+
+
+
+/*  abstract of linked external article  */
+.WB_feed_spec_brieftxt .S_txt2
+{
+  font-size: 12pt !important;
+  color: #D0D0D0 !important;
+}
+
+
+
+div.WB_handle ul li a span span span em,    /*  retweet and comments  of  tweet content  */
+div.WB_handle ul li span a span em,         /*  retweet and comments  of  quote  */
+div.WB_from.S_txt2 a                        /*  date link to full content  of  both tweet content and quote*/ 
+{
+  color:#BBF;
+}
+
+
+
+/*  retweet and comments  of  tweet content  */
+div.WB_handle ul li a span span span em
+{
+  font-size:12pt
+}
+
+
+
+/*  the literate text " 来自 "   */
+div.WB_from.S_txt2
+{
+  color:#000;
+}
+
+
+
+/* " from / 来自 " source, such as web\Android\iPhone etc. */
+div.WB_from.S_txt2 a.S_txt2:last-of-type
+{
+  display:none;
+}
+
+
+
+/*  pop up fake window of forwarding  */
+div.froward_wrap
+{
+	background-color: #000;
+}
+
+
+
+div[node-type="feed_list_commentList"].list_ul,  /*  expanded box of comments  */
+div[node-type="comment_list"].list_ul            /*  listed comments in the individual tweet content page*/
+{
+	background-color: #000;
+}
+
+
+
+/*  reply bottoms of listed comments in individual tweet content page  */
+div.WB_func div.WB_handle ul li span a
+{
+	color:#BBF;
+    font-size:12pt;
+    font-weight: bolder;
+}
